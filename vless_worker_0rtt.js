@@ -1,4 +1,6 @@
-  if (earlyDataContext.hasEarlyData) {
+//未实验修改版
+
+if (earlyDataContext.hasEarlyData) {
     console.log(`0-RTT status: Enabled with ${earlyDataContext.size} bytes early data (max: ${maxEarlyData})`);
   } else {
     console.log(`0-RTT status: ${enableZeroRTT ? 'Enabled but no early data received' : 'Disabled'}`);
