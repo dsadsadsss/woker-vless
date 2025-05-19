@@ -1,3 +1,5 @@
+//中转群原版
+
 let userID = 'ffffffff-ffff-ffff-ffff-ffffffffffff';
 let socks5Config = {
   host: '你的socks5代理ip地址',
